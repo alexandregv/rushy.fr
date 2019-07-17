@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        Commands\UpdateUsernames::class,
+        Commands\UpdateHeads::class
     ];
 
     /**
@@ -24,8 +25,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $schedule->command('update:usernames')->timezone('Europe/Paris')->dailyAt('00:00');
+        $schedule->command('update:heads    ')->timezone('Europe/Paris')->dailyAt('00:10');
     }
 
     /**
@@ -37,6 +38,6 @@ class Kernel extends ConsoleKernel
     {
         $this->load(__DIR__.'/Commands');
 
-        require base_path('routes/console.php');
+        require base_path('routes/console.php'); 
     }
 }

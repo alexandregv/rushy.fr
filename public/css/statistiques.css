@@ -1,0 +1,48 @@
+#particles-js { 
+  position: absolute; 
+  width: 101%; 
+  height: 55%; 
+  background-color: #232741; 
+  background-repeat: no-repeat; 
+  background-size: 20%; 
+  background-position: 50% 50%;
+}
+.block-title.stats {
+  display: block;
+  text-align: center;
+  margin: -340px 0 150px 0;
+}
+.block-title.stats .title {
+  font-size: 7rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+  color: var(--yellow);
+}
+@media screen and (max-width: 992px) {
+  .block-title.stats {
+    display: block;
+    text-align: center;
+    margin: -500px 0 100px 0;
+  }
+  .block-title.stats .title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+    color: var(--yellow);
+  }
+}
+/* =========== SECTION =========== */
+.content-stats {
+  width: 101%;
+  background-color: #FFF;
+}
+.content-stats section {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.content-stats section:nth-child(1) {
+  width: 65%;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+}

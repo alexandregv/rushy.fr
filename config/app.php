@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Europe/Paris',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fr',
 
     /*
     |--------------------------------------------------------------------------
@@ -150,6 +150,8 @@ return [
         /*
          * Package Service Providers...
          */
+        Buzz\LaravelGoogleCaptcha\CaptchaServiceProvider::class,
+        SahusoftCom\EloquentImageMutator\EloquentImageMutatorProvider::class,
 
         /*
          * Application Service Providers...

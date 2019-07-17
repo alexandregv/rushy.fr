@@ -1,0 +1,28 @@
+@extends('default')
+
+
+@section('content')
+  <section class="header-homepage">
+      <div class="block-title jeux">
+        <span class="title">Nos jeux</span>
+        <div></div>
+      </div>
+    </section>
+    
+    <section class="content-games">
+      <section class="row games-block">
+        @foreach($games as $game)
+          <div class="col-12 col-lg-4 col-xl-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="game-card">
+            <div class="img-game" style="height: 150px; background-image: url({{ $game->image->large->url }}); background-repeat: no-repeat;">
+              {{ $game->name }}
+            </div>
+            <div class="desc-game">
+              {{ $game->description }}
+            </div>
+          </div>
+          </div>
+        @endforeach
+      </section>
+    </section>
+@endsection

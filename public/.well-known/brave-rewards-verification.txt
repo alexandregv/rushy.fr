@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: rushy.fr
+Token: e8c62529257c545d8c3a2568ef704dbb89f3f819f06e764bde387607fe3ddea6

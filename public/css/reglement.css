@@ -1,0 +1,81 @@
+#particles-js { 
+  position: absolute; 
+  width: 101%; 
+  height: 55%; 
+  background-color: #232741; 
+  background-repeat: no-repeat; 
+  background-size: 20%; 
+  background-position: 50% 50%;
+}
+.block-title.rules {
+  display: block;
+  text-align: center;
+  margin: -340px 0 150px 0;
+}
+.block-title.rules .title {
+  font-size: 7rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+  color: var(--yellow);
+}
+@media screen and (max-width: 992px) {
+  .block-title.rules {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: -200px 0 100px 0;
+    z-index: 1000;
+  }
+  .block-title.rules .title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+    color: var(--yellow);
+  }
+}
+/* =========== SECTION =========== */
+.content-rules {
+  width: 100%;
+  background-color: #FFF;
+  text-align: left;
+  padding: 1rem 0 0 0;
+}
+.rule-block {
+  width: 75%;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  border-radius: 3px;
+}
+.hr-rule-title {
+  width: 5%;
+  margin: -5px auto 5px 0;
+  border: 0;
+  height: 2px;
+  background-color: var(--yellow);
+}
+.end-message {
+  padding: 2rem 0;
+  font-style: italic;
+  text-align: center;
+}
+.rule-block:nth-child(1), .rule-block:nth-child(3), .rule-block:nth-child(5), .rule-block:nth-child(7), .rule-block:nth-child(9), .rule-block:nth-child(11), .rule-block:nth-child(13), .rule-block:nth-child(15), .rule-block:nth-child(17), .rule-block:nth-child(19), .rule-block:nth-child(21) {
+  background-color: #EEE;
+}
+.rule-block:nth-child(2), .rule-block:nth-child(4), .rule-block:nth-child(6), .rule-block:nth-child(8), .rule-block:nth-child(10), .rule-block:nth-child(12), .rule-block:nth-child(14), .rule-block:nth-child(16), .rule-block:nth-child(18), .rule-block:nth-child(20), .rule-block:nth-child(22) {
+  background-color: #DDD;
+}
+@media screen and (max-width: 992px) {
+  .rule-block {
+    width: 95%;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    border-radius: 3px;
+  }
+  .hr-rule-title {
+    width: 25%;
+    margin: -5px auto 5px 0;
+    border: 0;
+    height: 2px;
+    background-color: var(--yellow);
+  }
+}

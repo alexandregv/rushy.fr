@@ -1,0 +1,16 @@
+@extends('default')
+
+
+@section('content')
+  <section class="header-homepage">
+      <div class="block-title jeux">
+        <span class="title">Nos jeux</span>
+        <div></div>
+      </div>
+    </section>
+    
+    <section class="content-games">
+      <p>Pas de jeux pour le moment <br> le serveur est en cours de développement.</p>
+    </section>
+    
+@endsection

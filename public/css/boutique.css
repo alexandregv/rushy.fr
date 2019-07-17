@@ -1,0 +1,61 @@
+#particles-js {
+  position: absolute; 
+  width: 100%;
+  height: auto;
+  background-color: #232741; 
+  background-repeat: no-repeat; 
+  background-size: 20%; 
+  background-position: 50% 50%;
+}
+canvas {
+  display: none;
+}
+.boutique iframe{
+  width: 100%;
+  //height: 110%;
+  height: 70vh;
+}
+.boutique {
+  margin-top: 63px;
+}
+@media screen and (max-width: 1720px) {
+  .boutique iframe{
+    height: 120%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .boutique iframe{
+    height: 130%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .boutique iframe{
+    height: 110%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .boutique iframe {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .boutique {
+    margin-top: 75px;
+  }
+  .boutique iframe{
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .boutique iframe{
+    height: 100%;
+  }
+}
+/* POUR L'IPHONE 6/7/8/plus  */
+/* POUR L'IPHONE X  */
+@media all and (max-width: 375px){
+  .boutique iframe{
+    height: 220%;
+  }
+}

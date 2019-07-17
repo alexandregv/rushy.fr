@@ -1,0 +1,193 @@
+.footer-block {
+  width: 100%;
+  position: relative;
+  background-color: #333;
+  padding: 20px 0 0 0;
+  z-index: 1000;
+}
+.credits-line {
+  display: flex;
+  padding: 20px 10px 15px;
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr-footer {
+  margin-bottom: -5px;
+  width: 100%;
+  margin-left: 0;
+  height: 3px;
+  background-color: var(--yellow);
+  border: 0;
+}
+.circle-footer {
+  margin-top: 9px;
+  font-size: 10px;
+  color: #EEE;
+}
+.link-footer {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  font-weight: 700;
+}
+.link-footer a:active, .link-footer a:link, .link-footer a:visited, .link-footer span {
+  color: #EEE;
+  text-decoration: none; 
+}
+.link-footer a:hover {
+  color: var(--yellow);
+  text-decoration: none;
+}
+.link-footer span i {
+  vertical-align: middle;
+}
+.block-footer {
+  display: none;
+}
+@media screen and (min-width: 1280px){
+  .block-footer {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
+.links-social, .logo-footer, .twitter-footer {
+  width: 33.3333%;
+}
+.links-social {
+  display: flex;
+  margin-top: 4rem;
+}
+.links-social h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--yellow);
+}
+.socials-btn {
+  display: flex;
+  margin-top: 22px;
+  margin-left: 4rem;
+}
+.socials-btn a {
+  margin: 0 20px;
+}
+.socials-btn i{
+  font-size: 2.4rem;
+}
+.logo-footer a img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 1.4rem;
+}
+.twitter-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#discord {
+  color: rgba(114, 137, 218, 0.7);
+}
+#discord:hover {
+  color: rgba(114, 137, 218, 1);
+}
+#twitter {
+  color: rgba(30, 161, 242, 0.7);
+}
+#twitter:hover {
+  color: rgba(30, 161, 242, 1);
+}
+#github {
+  color: #222;
+}
+#github:hover {
+  color: #555;
+}
+
+@media screen and (max-width: 992px) {
+  .twitter-footer {
+    display: none;
+  }
+  .links-social {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .links-social h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--yellow);
+  }
+  .socials-btn {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 2rem;
+  }
+  .socials-btn a {
+    margin: 0 20px;
+  }
+  .socials-btn i{
+    font-size: 2rem;
+  }
+  .logo-footer {
+    display: none;
+  }
+  .credits-line {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* MODAL CSS */
+.dev {
+  display: flex;
+  width: 90%;
+  background-color: #EEE;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-top: 15px;
+}
+.dev-logo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.dev-pseudo a {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.dev-pseudo span {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #666;
+}
+.dev-pseudo a, .dev-pseudo a:active, .dev-pseudo a:visited, .dev-pseudo a:link  {
+  color: #333;
+}
+.dev-pseudo a:hover{
+  color: var(--yellow);
+  text-decoration: none;
+}
+.dev-links {
+  display: block;
+  margin-left: auto;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.dev-links a{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 5px;
+}

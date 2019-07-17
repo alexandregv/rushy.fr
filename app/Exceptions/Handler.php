@@ -4,9 +4,24 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class Handler extends ExceptionHandler
 {
+    /**
+     * Render the given HttpException.
+     *
+     * @param  \Symfony\Component\HttpKernel\Exception\HttpException  $e
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    protected function renderHttpException(HttpException $e)
+    {
+        if(! view()->exists("errors.{$e->getStatusCode()}")) {
+            return response()->view('errors.default', ['exception' => $e], 500, $e->getHeaders());
+        }
+        return parent::renderHttpException($e);
+    }
+
     /**
      * A list of the exception types that are not reported.
      *

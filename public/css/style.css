@@ -1,0 +1,101 @@
+:root {
+  --yellow: rgba(218, 166, 27, 1);
+  --admin-color: rgba(98, 16, 199, 1);
+}
+
+html {
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.disallow-select {-webkit-user-select: none;  -khtml-user-select: none;   -moz-user-select: none; -o-user-select: none;    user-select: none; }
+.allow-select { -webkit-user-select: text; !important  -khtml-user-select: text; !important   -moz-user-select: text; !important -o-user-select: text; !important   user-select: text; !important}
+
+/* === particles.js container === */
+#particles-js { 
+  position: absolute; 
+  width: 101%; 
+  height: 100%; 
+  background-color: #232741; 
+  background-repeat: no-repeat;
+  background-size: 20%; 
+  background-position: 50% 50%;
+}
+
+section.content {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  margin-top: -65px;
+  margin-bottom: -5rem;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1000;
+}
+.header-homepage {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 1000;
+}
+.error-pages .block-title {
+  display: block;
+  text-align: center;
+  margin: -690px 0 0 0;
+}
+.error-pages .block-title .error-title {
+  font-size: 13rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+  color: var(--yellow);
+}
+.error-pages .block-title div.error-subtitle {
+  font-size: 1.6rem;
+  font-style: none;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -75px;
+}
+@media screen and (max-width: 992px) {
+  .error-pages .block-title {
+    display: block;
+    text-align: center;
+    margin: -530px 0 0 0;
+  }
+  .error-pages .block-title .error-title {
+    font-size: 7rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px rgba(169, 116, 23, 1);
+    color: var(--yellow);
+  }
+  .error-pages .block-title div.error-subtitle {
+    font-size: 1rem;
+    font-style: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -35px;
+  }
+  .error-pages .block-title iframe{
+    width: 100%;
+    height: 260px;
+  }
+}
+/* === SCROLLBAR === */
+@media screen and (min-width: 1080px){
+    ::-webkit-scrollbar {
+        width: 14px;
+    }
+    ::-webkit-scrollbar-track {
+        background: url('/img/transparent.png');
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(218, 166, 27, 0.4);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--yellow);
+    }
+}

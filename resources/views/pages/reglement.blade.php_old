@@ -1,0 +1,197 @@
+@extends('default')
+
+
+@section('content')
+  <section class="header-homepage">
+    <div class="block-title rules">
+      <span class="title">Règlement</span>
+      <div></div>
+    </div>
+  </section>
+  
+  <section class="content-rules">
+    <section class="rule-block">
+      <div>
+        <h3>Article I</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Cheats: </span>Tous les mods modifiant votre performance en jeu sont interdits tout comme le butturfly click et sont passibles d’une lourde sanction.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article II</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Chat: </span>Toutes les insultes, provocations, le harcèlement et la totalité des formes d’incitation à la haine sont prohibées. 
+          La publicité est interdite, sauf s’il s’agit de publicité concernant Rushy ou un live, une vidéo sur Rushy. 
+          Cependant vous devez avoir eu la permission d’un membre du staff auparavant. Toute forme de publicité non-autorisée sera très sévèrement sanctionnée. 
+          Le spam et le flood  (répétition d’une même lettre ou d’un symbole inutilement) sont interdits. 
+          Le langage SMS est à éviter, si un membre du staff à un doute sur la signification d’un de vos messages, vous serez avertis.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article III</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Report: </span>Rushy dispose d’un système de report qui permet d’avertir le staff de n’importe quelle sorte d’infractions et les bugs/glitch. 
+          Pour un tricheur il vous faudra faire “/report pseudo raison”, pour un bug/glitch “/report votre pseudo explication du bug/glitch”. 
+          Si vous êtes victimes d’une insulte en message privé vous pouvez cliquer sur le symbole “[!]” à la gauche du message privé afin de report celui-ci. 
+          Les reports sont un outil de travail pour le staff, les reports inutiles seront avertis puis sanctionnés si vous récidivez.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article IV</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Anti-jeu: </span>L’anti-jeu est une action visant à ralentir, casser ou bloquer une partie. 
+          Une action désavantageant votre équipe et/ou vos ennemies peut être considérée comme de l’anti-jeu. 
+          (Spleef ses alliés, boucher le spawn allié ou ennemie, spam bow…) Et sera donc sanctionnée.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article V</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Contournement des sanctions: </span>De manière générale, après avoir reçu une sanction, il vous est possible de faire une demande de déban. 
+          Nous acceptons les demandes dans la plupart des cas mais si vous êtes venus deux fois cheater, il vous sera impossible de réclamer une demande d’unban. 
+          Dans cette même idée, les personnes utilisant un autre compte pour pouvoir contourner une sanction se feront bannir à vie pour “DC” (Double compte), 
+          et cette sanction s’appliquera sur l’intégralité des DC du même compte. 
+          Il vous sera possible de faire unban vos DC une fois votre compte principal unban. Nous acceptons 3 Alts  par compte, 
+          au delà ils sont interdits et seront bannis à vie.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article VI</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Constructions: </span>Toutes les constructions néo-nazie, racistes, obscènes et toutes les constructions incitant à la haine sont interdites,
+          et passibles d’une sanction plus ou moins importante. Les machines à spawn kill reviennent à de l’anti-jeu (voir article 4) et seront donc sanctionnées.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article VII</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Usurpation d’identité: </span>Prendre l’identité de quelqu’un d’autre est illégal et est donc sanctionné. 
+          Le cat fishing est l’action de passer pour quelqu’un du sexe opposé et cette action est elle aussi sanctionnée.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article VIII</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Demande d’unban/d’unmute: </span>Pour tout ban, ou mute vous pouvez demander un unban/unmute ou une diminution de votre sanction sur 
+          le Discord dans le “# demande”, un minimum de sérieux et de qualité d’orthographe sera attendu.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article IX</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Augmentation du temps de sanction: </span>Si vous vous faites mute/ban plusieurs fois pour la même raison ou sur une courte durée,
+          vos futures sanctions verront leurs temps augmenter. 
+          (exemple : je suis mute une heure pour insulte, je me refais mute pour insulte mais cette fois-ci deux heures.)
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article X</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Achats boutique: </span>Si vous rencontrez un éventuel problème vis-à-vis de la boutique nous vous prierons de 
+          contacter un membre du staff qui avertira les Admins/Resp. de votre plainte.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article XI</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Devenir Guide puis Modérateur: </span>Pour devenir Modérateur il vous faudra d’abord devenir Guide en réalisant 
+          une candidature lorsque les recrutements seront ouverts.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article XII</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Devenir Partner: </span>À compléter
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article XIII</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Devenir Buildeur: </span>Les recrutements buildeur seront annoncés sur le Discord et en jeu par le staff. 
+          Toutes les informations se trouveront sur le Discord.
+        </p>
+      </div>
+    </section>
+    <section class="rule-block">
+      <div>
+        <h3>Article XIV</h3>
+        <hr class="hr-rule-title">
+      </div>
+      <div>
+        <p>
+          <span style="color: #333; font-weight: 700;">Règlement Discord: </span>Le Discord possède son propre règlement disponible dessus dans le salon “#reglement” .
+        </p>
+      </div>
+    </section>  
+    
+    <section class="end-message">
+      <h6>Bon jeu sur le serveur Rushy ! L'équipe de Rushy.</h6>
+    </section>
+    
+  </section>
+  
+
+@endsection
